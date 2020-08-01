@@ -1,0 +1,34 @@
+Vector-Quantized Entropy
+========================
+
+Assessment of brain dynamics elicited by motor imagery (MI) tasks
+contributes to clinical and learning applications. In this regard,
+Event-Related Desynchronization/Synchronization (ERD/S) is computed from
+Electroencephalographic signals, which show considerable variations in
+complexity. We present an Entropy-based method, termed VQEnt, for
+estimation of ERD/S using quantized stochastic patterns as a symbolic
+space, aiming to improve their discriminability and physiological
+interpretability. The proposed method builds the probabilistic priors by
+assessing the Gaussian similarity between the input measured data and
+their reduced vector-quantized representation. The validating results of
+a bi-class imagine task database (left and right hand) prove that VQEnt
+holds symbols that encode several neighboring samples, providing similar
+or even better accuracy than the other baseline sample-based algorithms
+of Entropy estimation. Besides, the performed ERD/S time-series are
+close enough to the trajectories extracted by the variational percentage
+of EEG signal power and fulfill the physiological MI paradigm. In BCI
+literate individuals, the VQEnt estimator presents the most accurate
+outcomes at a lower amount of electrodes placed in the sensorimotor
+cortex so that reduced channel set directly involved with the MI
+paradigm is enough to discriminate between tasks, providing an accuracy
+similar to the performed by the whole electrode set.
+
+--------------
+
+References
+~~~~~~~~~~
+
+-  Velasquez-Martinez, L., Caicedo-Acosta, J., & Castellanos-Dominguez,
+   G. (2020). Entropy-Based Estimation of Event-Related
+   De/Synchronization in Motor Imagery Using Vector-Quantized Patterns.
+   Entropy, 22(6), 703.
