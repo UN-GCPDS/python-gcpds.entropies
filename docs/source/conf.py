@@ -59,6 +59,9 @@ templates_path = ['_templates']
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
 
+# The master toctree document.
+master_doc = 'index'
+
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
@@ -108,6 +111,10 @@ htmlhelp_basename = 'GCPDSdoc'
 autodoc_mock_imports = [
 
     'IPython',
+    'numpy',
+    'scipy',
+    'mne',
+    'matplotlib',
     # 'base_server.WSHandler_Serial',
     # 'base_server.WSHandler_WiFi',
     # 'ws.base_server',
