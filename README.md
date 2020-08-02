@@ -1,1 +1,1 @@
-# GCPDS.Entropies
+# GCPDS - Entropies
