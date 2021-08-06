@@ -17,7 +17,7 @@ class VQEntropy:
         if len(data.shape) == 1:
             data = data.reshape(1, -1)
 
-        if x.shape[0] > 1:
+        if data.shape[0] > 1:
             pds, norm = self.joint(data, r, tau)
         else:
             pds, norm = self.marginal(data, r, tau)
